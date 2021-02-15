@@ -32,7 +32,22 @@ void draw() {
    
    if(points == 100) {
        textFont(f, 36) ;
-       text("CONGRATULATIONS!!!", 200, 400) ; 
+       text("CONGRATULATIONS!!!", 200, 300) ;
+       text("RESTART ?", 300, 400) ;
+       rect(240, 460, 90, 50) ; 
+       rect(490, 460, 70, 50) ; 
+       fill(255) ; 
+       text("YES", 250, 500) ; 
+       text("NO", 500, 500) ;
+       if(mousePressed) {
+         if(mouseX>=240 && mouseX<=330 && mouseY>=460 && mouseY<=510) {
+           points = 0 ; 
+           setup() ; 
+         }
+         if(mouseX>=490 && mouseX<=560 && mouseY>=460 && mouseY<=510) {
+           exit() ; 
+         }
+       }
    }
    
    if(mousePressed) {
