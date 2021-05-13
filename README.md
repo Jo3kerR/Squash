@@ -1,6 +1,6 @@
 # A Simple Mini Game made using Processing 3
 
-Instructions for running --- 
+Instructions for running the game - 
 
 1. Download Processing IDE : https://processing.org/download/
 
