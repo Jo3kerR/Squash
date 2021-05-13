@@ -1,4 +1,4 @@
-# A Simple Game made using Processing 3
+# A simple game made using Processing 3
 
 Instructions for running the game - 
 
